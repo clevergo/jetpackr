@@ -13,16 +13,20 @@ $ go get github.com/clevergo/jet-packrloader
 
 ## Usage
 
+See [example](example).
+
 ```go
+package main
+
 import (
-    packrloader "github.com/clevergo/jet-packrloader"
-    "github.com/CloudyKit/jet/v3"
-    "github.com/gobuffalo/packr/v2"
+	"github.com/CloudyKit/jet/v3"
+	packrloader "github.com/clevergo/jet-packrloader"
+	"github.com/gobuffalo/packr/v2"
 )
 
 func main() {
-    box := packr.New("views", "/path/to/views")
-    view := jet.NewHTMLSetLoader(packrloader.New(box))
-    // ...
+	box := packr.New("views", "./views")
+	view := jet.NewHTMLSetLoader(packrloader.New(box))
+	// ...
 }
 ```
