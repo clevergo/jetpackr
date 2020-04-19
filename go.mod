@@ -1,4 +1,4 @@
-module github.com/clevergo/jet-packrloader
+module github.com/clevergo/jetpackr
 
 go 1.13
 

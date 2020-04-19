@@ -5,13 +5,13 @@ import (
 	"log"
 
 	"github.com/CloudyKit/jet/v3"
-	packrloader "github.com/clevergo/jet-packrloader"
+	"github.com/clevergo/jetpackr"
 	"github.com/gobuffalo/packr/v2"
 )
 
 func main() {
 	box := packr.New("views", "./views")
-	view := jet.NewHTMLSetLoader(packrloader.New(box))
+	view := jet.NewHTMLSetLoader(jetpackr.New(box))
 	wr := bytes.Buffer{}
 	tmpl, err := view.GetTemplate("index.tmpl")
 	if err != nil {
