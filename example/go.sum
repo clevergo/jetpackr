@@ -11,8 +11,10 @@ github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6/go.mod h1:grANhF5
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/beorn7/perks v1.0.0/go.mod h1:KWe93zE9D1o94FZ5RNwFwVgaQK1VOXiVxmqh+CedLV8=
 github.com/cespare/xxhash v1.1.0/go.mod h1:XrSqR1VqqWfGrhpAt58auRo0WTKS1nRRg3ghfAqPWnc=
-github.com/clevergo/jetpackr v0.0.0-20200312130623-7e3681fcedb7 h1:q+jv7LApCJajFtw08fJdY+hEap4jTaJhuCBe+57oBeo=
-github.com/clevergo/jetpackr v0.0.0-20200312130623-7e3681fcedb7/go.mod h1:bAvgTNmOMfzGbEpc1FhPsr2HxwojkXJhKlZRqYCaWWU=
+github.com/clevergo/clevergo v1.11.0 h1:yTRoVoWnAvTJTL10/26SAhf+25HnrM+06Yo73v2/4kU=
+github.com/clevergo/clevergo v1.11.0/go.mod h1:CXwWkYV6APhZU4XQ4QS6LvsutBaZYi0wMDOanjuOIlg=
+github.com/clevergo/jetpackr v0.1.1 h1:+dDZtlnPQyCxDhEZmTDrHe5NaPYejnAWThmlrew84sc=
+github.com/clevergo/jetpackr v0.1.1/go.mod h1:bYC8ioncY9ErmAYIKbrUUTCuv0ZMZOAGnq1CE30cJjw=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/coreos/bbolt v1.3.2/go.mod h1:iRUV2dpdMOn7Bo10OQBFzIJO9kkE559Wcmn+qkEiiKk=
 github.com/coreos/etcd v3.3.10+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=

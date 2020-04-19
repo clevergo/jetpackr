@@ -1,10 +1,10 @@
 package main
 
 import (
-	"bytes"
-	"log"
+	"net/http"
 
 	"github.com/CloudyKit/jet/v3"
+	"github.com/clevergo/clevergo"
 	"github.com/clevergo/jetpackr"
 	"github.com/gobuffalo/packr/v2"
 )
@@ -12,14 +12,14 @@ import (
 func main() {
 	box := packr.New("views", "./views")
 	view := jet.NewHTMLSetLoader(jetpackr.New(box))
-	wr := bytes.Buffer{}
-	tmpl, err := view.GetTemplate("index.tmpl")
-	if err != nil {
-		log.Fatal(err)
-	}
-	if err = tmpl.Execute(&wr, nil, nil); err != nil {
-		log.Fatal(err)
-	}
+	router := clevergo.NewRouter()
+	router.Get("/", func(ctx *clevergo.Context) error {
+		tmpl, err := view.GetTemplate("index.tmpl")
+		if err != nil {
+			return err
+		}
 
-	log.Println(wr.String())
+		return tmpl.Execute(ctx.Response, nil, nil)
+	})
+	http.ListenAndServe(":8080", router)
 }
