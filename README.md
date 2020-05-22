@@ -3,6 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/clevergo/jetpackr/badge.svg?branch=master)](https://coveralls.io/github/clevergo/jetpackr?branch=master)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue)](https://pkg.go.dev/github.com/clevergo/jetpackr)
 [![Go Report Card](https://goreportcard.com/badge/github.com/clevergo/jetpackr)](https://goreportcard.com/report/github.com/clevergo/jetpackr)
+[![Sourcegraph](https://sourcegraph.com/github.com/clevergo/jetpackr/-/badge.svg)](https://sourcegraph.com/github.com/clevergo/jetpackr?badge)
 [![Release](https://img.shields.io/github/release/clevergo/jetpackr.svg?style=flat-square)](https://github.com/clevergo/jetpackr/releases)
 
 ## Install
