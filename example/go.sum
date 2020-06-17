@@ -1,7 +1,7 @@
 clevergo.tech/clevergo v0.1.0 h1:OPifgX5vlnlAieVKIt1Wd9klP5dzPbqQoG1h2QRMCM0=
 clevergo.tech/clevergo v0.1.0/go.mod h1:T/O3eumTaCGhGYyUa2SsKfihykKsw48D6wwSuQTSyk0=
-clevergo.tech/jetpackr v0.0.0-20200617111748-fef161709411 h1:HNPWWzkFBei1eBUFVZvMUVkWmjNSjxsWRRW5YcAmzmE=
-clevergo.tech/jetpackr v0.0.0-20200617111748-fef161709411/go.mod h1:ZqnFJEz0TRFhqnpB9T5VKEtvub0iKw78gkfvaHBkP6A=
+clevergo.tech/jetpackr v0.1.0 h1:ZsJxDU4nlxEF5G+GxFeZVbOX4RIaJV5UAouq+eMptBw=
+clevergo.tech/jetpackr v0.1.0/go.mod h1:sxdTncl3miOXylbLGO7rBGRis3PeRhV/orxlTnnf/2I=
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/CloudyKit/fastprinter v0.0.0-20200109182630-33d98a066a53 h1:sR+/8Yb4slttB4vD+b9btVEnWgL3Q00OBTzVT8B9C0c=
