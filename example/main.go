@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/CloudyKit/jet/v3"
 	"clevergo.tech/clevergo"
 	"clevergo.tech/jetpackr"
+	"github.com/CloudyKit/jet/v3"
 	"github.com/gobuffalo/packr/v2"
 )
 
