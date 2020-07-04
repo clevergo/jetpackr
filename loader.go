@@ -7,8 +7,11 @@ package jetpackr
 import (
 	"io"
 
+	"github.com/CloudyKit/jet/v4"
 	"github.com/gobuffalo/packr/v2"
 )
+
+var _ jet.Loader = (*Loader)(nil)
 
 // Loader a file system loader.
 type Loader struct {

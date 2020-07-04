@@ -22,7 +22,7 @@ func TestNew(t *testing.T) {
 }
 
 func TestLoaderExists(t *testing.T) {
-	box := packr.New("views", "./example/views")
+	box := packr.New("views", "./testdata/views")
 	l := New(box)
 	views := []string{"index.tmpl", "non-existence.tmpl"}
 	for _, name := range views {
@@ -38,7 +38,7 @@ func TestLoaderExists(t *testing.T) {
 }
 
 func TestLoaderOpen(t *testing.T) {
-	box := packr.New("views", "./example/views")
+	box := packr.New("views", "./testdata/views")
 	l := New(box)
 	views := []string{"index.tmpl", "non-existence.tmpl"}
 	for _, name := range views {
