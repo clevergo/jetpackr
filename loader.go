@@ -7,7 +7,7 @@ package jetpackr
 import (
 	"io"
 
-	"github.com/CloudyKit/jet/v4"
+	"github.com/CloudyKit/jet/v5"
 	"github.com/gobuffalo/packr/v2"
 )
 

@@ -19,7 +19,7 @@ See [example](https://github.com/clevergo/examples/tree/master/jetrenderer).
 package main
 
 import (
-	"github.com/CloudyKit/jet/v4"
+	"github.com/CloudyKit/jet/v5"
 	"github.com/clevergo/jetpackr"
 	"github.com/gobuffalo/packr/v2"
 )
